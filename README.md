@@ -3,7 +3,7 @@
 #### 本文利用wordcloud和jieba模块生成词云图，以今年政府工作报告为例。
 
 
-
+'''
 class drawWordcloud():
     def __init__(self):
         pass
@@ -33,4 +33,4 @@ class drawWordcloud():
         self.draw_wordcloud(comment_text)
 
 
-    
+'''
