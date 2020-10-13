@@ -1,13 +1,8 @@
-# word-cloud
-draw wordcloud by using text data
+### word-cloud
 
-# 本文利用wordcloud和jieba模块生成词云图，以今年政府工作报告为例。
+#### 本文利用wordcloud和jieba模块生成词云图，以今年政府工作报告为例。
 
-# -*- coding: utf-8 -*-
 
-from wordcloud import WordCloud
-import jieba
-import matplotlib.pyplot as plt
 
 class drawWordcloud():
     def __init__(self):
@@ -37,6 +32,5 @@ class drawWordcloud():
         comment_text = open(r'E:\programGao\wordcloud_test\gov_report.txt','r',encoding='utf-8').read()
         self.draw_wordcloud(comment_text)
 
-if __name__ == '__main__':
-    drawWordcloud().domain()
+
     
